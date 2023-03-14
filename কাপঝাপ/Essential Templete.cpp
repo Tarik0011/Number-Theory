@@ -22,6 +22,15 @@ const int mxn=1e6+123;
 int a[mxn];
 
 void solve(){
+ /*
+	multiset<pair<int,int>>ms;
+	auto it=ms.lower_bound({8,0});
+	if (it != ms.end()) {
+		//cout<<it->first<<" "<<it->second<<endl;
+		//ms.erase(it);
+
+    }
+    /*
 
  	/*
  	vector<int>prefix(n+1,0),suffix(n+1,0);
