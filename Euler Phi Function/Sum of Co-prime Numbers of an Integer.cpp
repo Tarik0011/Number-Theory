@@ -28,7 +28,7 @@ void phii(int n){
 		if(phi[i]==i){
 			for(int j=i;j<=n;j+=i){
 				phi[j] *= (i-1);
-                phi[j] /= i;
+                                phi[j] /= i;
 			}
 		}
 	}
