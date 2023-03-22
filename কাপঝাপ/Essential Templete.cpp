@@ -13,6 +13,21 @@ struct cmp{
 	}
 };
 
+//Lexicographically check
+bool cmp(string a,string b){
+	int p=a.size();
+	int q=b.size();
+	for(int i=0;i<min(p,q);i++){
+		if(a[i]!=b[i]){
+			return pos[a[i]-'a']<pos[b[i]-'a'];
+		}
+	}
+	return p<q;
+}
+
+
+
+
 
 }
 void solve(){
