@@ -2,7 +2,15 @@
 #include <ext/pb_ds/assoc_container.hpp>
 all comperator function{
 /*
-// priority_queue<pair<int,int>,cmp>pq;
+// #include<bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+all comperator function{
+/*
+// #include<bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+all comperator function{
+/*
+// priority_queue<pair<int,int>,vector<pair<int,int>>,cmp>pq;
 // set<pair<int,int>,cmp>s;
 // cmp function
 struct cmp{
@@ -12,6 +20,12 @@ struct cmp{
                	return a.first<b.first;
 	}
 };
+//priority_queue<vector<int>,vector<vector<int>>,comp>pq;
+struct comp {
+        bool operator()(vector<int>p1,vector<int>p2) {
+            return p1[1]>p2[1];
+        }
+ };
 
 //Lexicographically check
 bool cmp(string a,string b){
@@ -57,11 +71,5 @@ void solve(){
  	*/
 
 }
-signed main(){ 
-    fastio; 
-    int t=1;
-   // cin>>t;
-    while(t--){
-       solve();
-    }
-}
+
+
