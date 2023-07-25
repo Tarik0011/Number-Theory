@@ -28,6 +28,10 @@ struct comp {
  };
 
 //Lexicographically check
+//pos[27]
+// for(int i=0;i<s.size();i++){
+// 	pos[s[i]-'a']=i;
+// }
 bool cmp(string a,string b){
 	int p=a.size();
 	int q=b.size();
