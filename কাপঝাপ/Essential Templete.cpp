@@ -26,6 +26,15 @@ struct comp {
             return p1[1]>p2[1];
         }
  };
+					//Clockwise shifted k times
+					// string tmp=s;
+					// for(int i=0;i<n;i++){
+					// 	tmp[(i+k)%n]=s[i];
+					// }
+
+
+
+ 
 
 //Lexicographically check
 //pos[27]
