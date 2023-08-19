@@ -85,4 +85,15 @@ void solve(){
 
 }
 
+//Binary string to decimal
+/*
+
+	int ss=0;
+	for(int i=0;i<s.size();i++){
+		ss=ss*2+(s[i]-'0');
+	}
+	cout<<ss<<endl;
+
+*/
+
 
