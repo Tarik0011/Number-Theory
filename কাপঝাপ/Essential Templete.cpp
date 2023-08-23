@@ -183,7 +183,7 @@ void solve(){
 
 }
 
-//Binary string to decimal
+			//Binary string to decimal
 /*
 
 	int ss=0;
@@ -193,8 +193,16 @@ void solve(){
 	cout<<ss<<endl;
 
 */
-//special binary search for within a range
+
+
+			//special binary search for within a range
 /*
+
+ //https://leetcode.com/problems/find-the-longest-equal-subarray/
+//https://codeforces.com/contest/180/problem/E
+
+
+
 int bs(int i,vector<int>&v,int k){
 	int l=i,r=v.size()-1,ans=-1;
 	while(l<=r){
