@@ -47,6 +47,7 @@ ith bit   idx
 	for(int i=0;i<n;i++){
 		cin>>a[i];
 	}
+	//vector<priority_queue<int,vector<int>,greater<int>>>loc(30);
 	vector<queue<int>>loc(30);
 	for(int i=0;i<n;i++){
 		for(int j=0;j<4;j++){
