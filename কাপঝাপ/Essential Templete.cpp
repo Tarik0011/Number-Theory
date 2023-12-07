@@ -1,3 +1,32 @@
+/*		Touple
+
+
+bool cmp(tuple<int,int,int>&a,tuple<int,int,int>&b){
+	return get<0>(a)<get<0>(b);
+}
+
+vector<tuple<int,int,int>>t;
+	for(int i=1;i<=m;i++){
+		int u,v,w;
+		cin>>u>>v>>w;
+		t.pb({w,u,v});
+	}
+	
+	for(auto x:t){
+		int w=get<0>(x);
+		int u=get<1>(x);
+		int v=get<2>(x);
+		cout<<u<<" "<<v<<" "<<w<<endl;
+	}
+
+
+*/
+
+
+
+
+
+
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 all comperator function{
