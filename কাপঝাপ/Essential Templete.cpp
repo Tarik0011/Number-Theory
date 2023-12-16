@@ -18,6 +18,13 @@ vector<tuple<int,int,int>>t;
 		int v=get<2>(x);
 		cout<<u<<" "<<v<<" "<<w<<endl;
 	}
+	 for (int i = 1; i < n;i++){
+		int u=get<0>(t[i]);
+	        int v=get<0>(t[i-1]);
+		 int idx1=get<2>(t[i]);
+		 int idx2=get<2>(t[i-1]);
+		 tmp.pb({u-v,idx1,idx2});
+    }
 
 
 */
